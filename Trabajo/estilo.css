@@ -1,0 +1,204 @@
+.centenario {
+  margin-left: 0px;
+  margin-top: 10px;
+  color: #f7f6fa;
+  font-size: 16px; }
+
+.body {
+  background-color: #b6d7a8; }
+
+.imagen {
+  height: 80px;
+  width: 100px; }
+
+.container {
+  height: 60px;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 0.35fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
+
+.main {
+  margin-top: 20px;
+  text-align: center;
+  color: white; }
+
+.tabla {
+  color: white;
+  border-style: solid;
+  border-color: white; }
+
+.imagen1 {
+  height: 380px;
+  width: 1120px;
+  margin-top: 10px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white; }
+
+.shop {
+  color: white;
+  align-items: center; }
+
+.titulo {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-bottom: 40px; }
+
+.titulo--titulo {
+  font-weight: bold;
+  color: white;
+  word-spacing: 1px;
+  font-size: 25px;
+  line-height: 15px; }
+
+.titulo--subtitulo {
+  color: white;
+  word-spacing: 1px;
+  font-size: 18px;
+  line-height: 15px; }
+
+.nosotrostexto {
+  margin-left: 20px; }
+
+.nosotrosImagenes {
+  margin-left: 80px; }
+
+.imagenContactanos {
+  margin-left: 80px; }
+
+.footer {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px; }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: white; }
+
+.video {
+  text-align: center; }
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.turnos {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  width: 55%; }
+
+.input {
+  border-style: solid;
+  border-color: white;
+  color: white; }
+
+.input--uppercase {
+  width: 100px;
+  height: 25px;
+  transition: all 2s;
+  text-transform: uppercase; }
+
+input:focus {
+  width: 200px;
+  font-size: 24px; }
+
+.pedidos {
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.boton {
+  font-size: 25px;
+  color: white;
+  background-color: #b6d7a8;
+  border-color: white;
+  border-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/*CALENDARIO*/
+ul {
+  list-style-type: none; }
+
+body {
+  font-family: Verdana, sans-serif; }
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 66.5%;
+  background: #1abc9c;
+  text-align: center;
+  margin-top: 300px; }
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0; }
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px; }
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px; }
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+  width: 70%; }
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center; }
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  width: 70%; }
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777; }
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important; }
